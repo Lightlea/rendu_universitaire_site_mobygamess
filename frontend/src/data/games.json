@@ -1,0 +1,33 @@
+
+
+[
+    {
+      "id": 1,
+      "title": "塞尔达传说",
+      "rating": 9.7,
+      "releaseDate": "2023-05-12",
+      "company": "任天堂",
+      "cover": "https://via.placeholder.com/300x160",
+      "friends": [
+        "https://i.pravatar.cc/24?img=1",
+        "https://i.pravatar.cc/24?img=2",
+        "https://i.pravatar.cc/24?img=3"
+      ],
+      "tags": ["冒险", "开放世界", "剧情"]
+    },
+    {
+      "id": 2,
+      "title": "巫师3",
+      "rating": 9.5,
+      "releaseDate": "2015-05-19",
+      "company": "CD Projekt Red",
+      "cover": "https://via.placeholder.com/300x160",
+      "friends": [
+        "https://i.pravatar.cc/24?img=4",
+        "https://i.pravatar.cc/24?img=5"
+      ],
+      "tags": ["奇幻", "RPG", "单人"]
+    }
+ 
+  ]
+  
