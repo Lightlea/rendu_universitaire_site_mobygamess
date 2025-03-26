@@ -1,9 +1,10 @@
+<script setup>
+defineProps(['description'])
+</script>
+
 <template>
-    <div class="bg-gray-50 rounded-xl p-4">
-      <h4 class="font-semibold mb-2">Introduction</h4>
-      <p class="text-sm text-gray-600 leading-relaxed">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-    </div>
-  </template>
-  
+  <div class="bg-white p-4 rounded-xl shadow">
+    <h3 class="text-lg font-bold mb-2">Game Introduction</h3>
+    <p class="text-sm text-gray-700">{{ description }}</p>
+  </div>
+</template>

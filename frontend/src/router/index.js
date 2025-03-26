@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Rankings from '../Rankings.vue'
 import Home from '../views/Home.vue'
 import TagPage from '../TagPage.vue'
-import company from '../company.vue'  // 改为小写
-import MobyPro from '../views/MobyPro.vue'  // 确保路径正确
+import Company from '../company.vue'
+import MobyPro from '../views/MobyPro.vue'
+import TheGamePage from '../thegamepage.vue'
 
 const routes = [
   {
@@ -25,16 +26,21 @@ const routes = [
     path: '/community',
     name: 'Community',
     component: () => import('../community.vue')
-  },  // 添加缺失的逗号
-  { 
-    path: '/company',   
-    name: 'company',    // 改为小写
-    component: company  // 改为小写
-  },    
-  { 
-    path: '/mobypro',   
+  },
+  {
+    path: '/company',
+    name: 'Company',
+    component: Company
+  },
+  {
+    path: '/mobypro',
     name: 'MobyPro',
-    component: MobyPro 
+    component: MobyPro
+  },
+  {
+    path: '/game/:id',
+    name: 'Game',
+    component: TheGamePage
   }
 ]
 
