@@ -1,7 +1,6 @@
 <template>
   <div class="text-center mb-8">
-    <h1 class="text-4xl font-bold">Mob <span class="inline-block rotate-12">🐳</span> Game</h1>
+    <img src="/Users/passerby535/Pictures/site_mobygames/frontend/src/assets/logo_mobygames.png" alt="MobyGames Logo" class="mx-auto h-16">
   </div>
-
 </template>
 
